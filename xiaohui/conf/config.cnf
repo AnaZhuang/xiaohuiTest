@@ -1,0 +1,30 @@
+[honor9]
+platformName = Android
+platformVersion = 8.0.0
+deviceName = 37KRX18926031940
+appPackage = onecloud.cn.xiaohui.qa
+appActivity = onecloud.cn.xiaohui.main.LoadingActivity
+noReset = True
+
+
+[vivo]
+platformName = Android
+platformVersion = 8.1.0
+deviceName = 35eb25e5
+appPackage = onecloud.cn.xiaohui.qa
+appActivity = onecloud.cn.xiaohui.main.LoadingActivity
+noReset = True
+
+[device_iphone6]
+
+
+[individual_user]
+user1=17324227705,engine
+user2=13751862277,engine
+
+
+[enterprise_user]
+user1=测试测试测试,17324227705,engine
+user2=测试测试测试,13751862277,engine
+
+

@@ -1,0 +1,54 @@
+,,,,
+,,,,
+个人版登录页面,登录按钮,id,"onecloud.cn.xiaohui.qa:id/login_submit_btn
+",
+首页,element,by,location,description
+,顶部栏,,,
+,企业名称/app名称,id,onecloud.cn.xiaohui.qa:id/tv_appOrCompanyName,企业名称/app名称
+,关联账号,id,"onecloud.cn.xiaohui.qa:id/associate_account
+",关联账号
+,,,,
+,第二行,,,
+,扫一扫,id,onecloud.cn.xiaohui.qa:id/home_quick_scan,扫一扫
+,加账号,id,onecloud.cn.xiaohui.qa:id/home_quick_add_account,
+,聊一聊,id,onecloud.cn.xiaohui.qa:id/home_quick_friends,
+,,,,
+,,,,
+,聊一聊消息卡片,,,
+,最新一条消息内容,xpath,"(//android.widget.TextView[@resource-id=""onecloud.cn.xiaohui.qa:id/info_content""])[1]",
+,最新一条消息时间,xpath,"(//android.widget.TextView[@resource-id=""onecloud.cn.xiaohui.qa:id/info_time""])[1]",
+,未读消息数量,id,"onecloud.cn.xiaohui.qa:id/unread_count_text
+",
+,,,,
+,云账号消息卡片,,,
+,最新一条消息内容,xpath,"(//android.widget.TextView[@resource-id=""onecloud.cn.xiaohui.qa:id/info_content""])[2]",
+,最新一条消息时间,xpath,"(//android.widget.TextView[@resource-id=""onecloud.cn.xiaohui.qa:id/info_time""])[2]",
+,,,,
+,云会议消息卡片,,,
+,最新一条消息内容,xpath,"(//android.widget.TextView[@resource-id=""onecloud.cn.xiaohui.qa:id/info_content""])[3]",
+,最新一条消息时间,xpath,"(//android.widget.TextView[@resource-id=""onecloud.cn.xiaohui.qa:id/info_time""])[3]",
+,,,,
+,顶部菜单,,,
+,首页,xpath,"(//android.widget.ImageView[@resource-id=""onecloud.cn.xiaohui.qa:id/main_tabitem_pic""])[1]",
+,云账号,xpath,"(//android.widget.ImageView[@resource-id=""onecloud.cn.xiaohui.qa:id/main_tabitem_pic""])[2]",
+,基础云,xpath,"(//android.widget.ImageView[@resource-id=""onecloud.cn.xiaohui.qa:id/main_tabitem_pic""])[3]",
+,我的,xpath,"(//android.widget.ImageView[@resource-id=""onecloud.cn.xiaohui.qa:id/main_tabitem_pic""])[4]",
+,,,,
+,,,,
+我的,顶部栏,xpath,"//android.view.ViewGroup[@resource-id=""onecloud.cn.xiaohui.qa:id/toolbar""]//android.widget.TextView[@text=’我的’]
+",“我的”用双引号报错
+,头像,id,onecloud.cn.xiaohui.qa:id/user_avatar,
+,二维码,id,onecloud.cn.xiaohui.qa:id/iv_scode,个人用户才有
+,通讯录,xpath,"//android.widget.TextView[@resource-id=""onecloud.cn.xiaohui.qa:id/setting_item_text"" and @text=’通讯录’]","“通讯录”有时用双引号会报错,用单引号也会报错.不知道到底该用单引号还是双引号好"
+,亦云空间,xpath,"//android.widget.TextView[@resource-id=""onecloud.cn.xiaohui.qa:id/setting_item_text"" and @text=’亦云空间’]","[elements(""xpath"",""//android.widget.TextView[@resource-id=\""onecloud.cn.xiaohui.qa:id/setting_item_text\"" and @text=’亦云空间’]"")] Error response status: 32, , InvalidSelector - Argument was an invalid selector (e.g. XPath/CSS). Selenium error: javax.xml.transform.TransformerException: A location path was expected, but the following token was encountered: ’亦云空间’"
+,系统消息,xpath,"//android.widget.TextView[@resource-id=""onecloud.cn.xiaohui.qa:id/setting_item_text"" and @text=’系统消息’]",
+,系统设定,xpath,"//android.widget.TextView[@resource-id=""onecloud.cn.xiaohui.qa:id/setting_item_text"" and @text=’系统设定’]",
+,,,"//android.widget.TextView[@resource-id=""onecloud.cn.xiaohui.qa:id/setting_item_text"" and @text=’关于’]",
+,,,,
+,,,,
+,,,,
+,,,,
+,退出账号,id,onecloud.cn.xiaohui.qa:id/logout,
+,确认退出弹框-标题,id,onecloud.cn.xiaohui.qa:id/alertTitle,
+,确认退出弹框—取消,id,android:id/button2,
+,确认退出弹框—确定,id,android:id/button1,
